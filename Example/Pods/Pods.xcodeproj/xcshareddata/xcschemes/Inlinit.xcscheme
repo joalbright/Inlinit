@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '39722DE1648CDC7C27BE3356'
+               BlueprintIdentifier = '298264856C470742A9C0F216'
                BlueprintName = 'Inlinit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Inlinit.framework'>

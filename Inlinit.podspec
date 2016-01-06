@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "Inlinit"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Inlinit."
+  s.summary          = "A new design pattern to allow closure initialization."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+
+    Reduces the need for unnecessary local variables. This also allows you to create let constants while appending values to it within the initalizer closure.
+
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Inlinit"
+  s.homepage         = "https://github.com/joalbright/Inlinit"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Jo Albright" => "me@jo2.co" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Inlinit.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/joalbright/Inlinit.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/joalbright'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true

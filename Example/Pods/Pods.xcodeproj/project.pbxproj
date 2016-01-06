@@ -11,13 +11,13 @@
 		21B2E7B433CCF7732390F7776D70591A /* Pods-Inlinit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F33C216A5DE0AEA82E33E2F397919D /* Pods-Inlinit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C59B98D6223C9C2C97418C6E844EE48 /* Pods-Inlinit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ECA3182EDCB62789E08B288A00F3A06 /* Pods-Inlinit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F5354D8D8895CBFC20EEA12F8835CAB /* Inlinit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0E518BB13B27C7DF268B6A5763179 /* Inlinit.bundle */; };
+		441F62B37296294FD9D64E00F0F24871 /* Inlinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90D6972E9822D65DCEA420C28522D5 /* Inlinit.swift */; };
 		5826F3F1F04DCC6EB14CE0EC9EC21C5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		784906DA759180AAC8CF3BFB09357ED7 /* Pods-Inlinit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 422A58C813008122618F89E91F06E746 /* Pods-Inlinit_Tests-dummy.m */; };
 		8C61570020C8E87F64009B443ADF1FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		8F75D441E4FE6DD6E08FB76BC913417D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		AC65F6538D3E348069CEFFFED42720A7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C057FCA1A2B1E5C31EBF14D4B8131A /* ReplaceMe.swift */; };
+		B09829C9A0F5E631D45DBA6482CB36E2 /* Inlinit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AA8F7C409ACA36340E38BC33DA63CA /* Inlinit-dummy.m */; };
 		D1C1EEEEED3EDF6B6F43BE0C1F442AEA /* Inlinit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E461FCDAE540AC792C33D8A6430079BC /* Inlinit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFA84E135385378C05DD7B0E2C8AEE29 /* Inlinit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AA8F7C409ACA36340E38BC33DA63CA /* Inlinit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +53,7 @@
 		37F2BA04888EBF21A075765754F9CD2D /* Pods-Inlinit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Inlinit_Tests.modulemap"; sourceTree = "<group>"; };
 		386E5B98443BD00DB1A880AE33821357 /* Pods-Inlinit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Inlinit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F90D6972E9822D65DCEA420C28522D5 /* Inlinit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Inlinit.swift; sourceTree = "<group>"; };
 		422A58C813008122618F89E91F06E746 /* Pods-Inlinit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Inlinit_Tests-dummy.m"; sourceTree = "<group>"; };
 		42CD976E162B3E911D9C9FBAFB7E0BFD /* Pods-Inlinit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Inlinit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4EE331FA0D9495E1C076517D506DE3ED /* Pods-Inlinit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Inlinit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		5A63890BA52653FFCB67EDD2905DE130 /* Pods-Inlinit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Inlinit_Example-resources.sh"; sourceTree = "<group>"; };
 		7AF0E518BB13B27C7DF268B6A5763179 /* Inlinit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Inlinit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8489FF20538417EF146179DCA4E951A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89C057FCA1A2B1E5C31EBF14D4B8131A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		903C8965A6D4FFF5B84B5C47CEAC9F66 /* Inlinit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Inlinit.modulemap; sourceTree = "<group>"; };
 		94AA8F7C409ACA36340E38BC33DA63CA /* Inlinit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Inlinit-dummy.m"; sourceTree = "<group>"; };
 		990E91D8E3866CDE97F15925BC98FF9C /* Inlinit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Inlinit-prefix.pch"; sourceTree = "<group>"; };
@@ -133,14 +133,6 @@
 			path = "Target Support Files/Pods-Inlinit_Tests";
 			sourceTree = "<group>";
 		};
-		32A154F2A016E1355C3264079DFAB9CE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				89C057FCA1A2B1E5C31EBF14D4B8131A /* ReplaceMe.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		35452FC168C38E75005ED573C7B5D7E7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +150,14 @@
 			);
 			name = Inlinit;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		41654CDAF1B853788D8BE85ACA22829E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3F90D6972E9822D65DCEA420C28522D5 /* Inlinit.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		5D2BB18CE8F4F8C7D4E93E226C3EDBFA /* Pods-Inlinit_Example */ = {
@@ -230,7 +230,7 @@
 		EDE5EE871D4689823AB53A2575C1C02A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				32A154F2A016E1355C3264079DFAB9CE /* Classes */,
+				41654CDAF1B853788D8BE85ACA22829E /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -297,7 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE1CC6849DAC07314FCCBBBE45AEF778 /* Build configuration list for PBXNativeTarget "Inlinit" */;
 			buildPhases = (
-				A9B2485A1433C5D4E564E1557C2515E8 /* Sources */,
+				A8A68058176E4A7E92EB750D668F3599 /* Sources */,
 				918D3FE31D2F4BAE45A1279D160A09FC /* Frameworks */,
 				1300AE3BD668D6ADE5341779F5754245 /* Resources */,
 				21912EAE4E6FD9982E5673A5C0050479 /* Headers */,
@@ -412,12 +412,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9B2485A1433C5D4E564E1557C2515E8 /* Sources */ = {
+		A8A68058176E4A7E92EB750D668F3599 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFA84E135385378C05DD7B0E2C8AEE29 /* Inlinit-dummy.m in Sources */,
-				AC65F6538D3E348069CEFFFED42720A7 /* ReplaceMe.swift in Sources */,
+				B09829C9A0F5E631D45DBA6482CB36E2 /* Inlinit-dummy.m in Sources */,
+				441F62B37296294FD9D64E00F0F24871 /* Inlinit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
