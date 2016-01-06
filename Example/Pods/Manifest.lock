@@ -1,0 +1,14 @@
+PODS:
+  - Inlinit (0.1.0)
+
+DEPENDENCIES:
+  - Inlinit (from `../`)
+
+EXTERNAL SOURCES:
+  Inlinit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Inlinit: 309e253be9b3bdf01619f443a94810d7d42b8979
+
+COCOAPODS: 0.39.0

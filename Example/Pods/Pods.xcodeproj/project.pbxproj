@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		205874F40FE4FAC184E360A76CFDD1D9 /* Pods-Inlinit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3609F749D158FBE9CAA95FBB41D50D28 /* Pods-Inlinit_Example-dummy.m */; };
+		21B2E7B433CCF7732390F7776D70591A /* Pods-Inlinit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F33C216A5DE0AEA82E33E2F397919D /* Pods-Inlinit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C59B98D6223C9C2C97418C6E844EE48 /* Pods-Inlinit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ECA3182EDCB62789E08B288A00F3A06 /* Pods-Inlinit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F5354D8D8895CBFC20EEA12F8835CAB /* Inlinit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0E518BB13B27C7DF268B6A5763179 /* Inlinit.bundle */; };
+		5826F3F1F04DCC6EB14CE0EC9EC21C5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		784906DA759180AAC8CF3BFB09357ED7 /* Pods-Inlinit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 422A58C813008122618F89E91F06E746 /* Pods-Inlinit_Tests-dummy.m */; };
+		8C61570020C8E87F64009B443ADF1FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8F75D441E4FE6DD6E08FB76BC913417D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AC65F6538D3E348069CEFFFED42720A7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C057FCA1A2B1E5C31EBF14D4B8131A /* ReplaceMe.swift */; };
+		D1C1EEEEED3EDF6B6F43BE0C1F442AEA /* Inlinit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E461FCDAE540AC792C33D8A6430079BC /* Inlinit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFA84E135385378C05DD7B0E2C8AEE29 /* Inlinit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AA8F7C409ACA36340E38BC33DA63CA /* Inlinit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06618A23F5FC9AD558A2957FF32F0965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 355A8130A8D2850F533856347CFA7BFB;
+			remoteInfo = "Inlinit-Inlinit";
+		};
+		88A66A3B5EB3BFF1707ECE6AC900181A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C91A2BD2A58BB9A31D57ABE945F7E19;
+			remoteInfo = Inlinit;
+		};
+		FA3EB5A5BC586177223119CE38FA3A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C91A2BD2A58BB9A31D57ABE945F7E19;
+			remoteInfo = Inlinit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F33C216A5DE0AEA82E33E2F397919D /* Pods-Inlinit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Inlinit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0670BF87372402F91D171EC5039D1E02 /* Pods-Inlinit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Inlinit_Tests-resources.sh"; sourceTree = "<group>"; };
+		109C5C75600B9ACBD06D161BB1A26F9E /* Pods-Inlinit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Inlinit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1ECA3182EDCB62789E08B288A00F3A06 /* Pods-Inlinit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Inlinit_Example-umbrella.h"; sourceTree = "<group>"; };
+		3609F749D158FBE9CAA95FBB41D50D28 /* Pods-Inlinit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Inlinit_Example-dummy.m"; sourceTree = "<group>"; };
+		37F2BA04888EBF21A075765754F9CD2D /* Pods-Inlinit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Inlinit_Tests.modulemap"; sourceTree = "<group>"; };
+		386E5B98443BD00DB1A880AE33821357 /* Pods-Inlinit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Inlinit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		422A58C813008122618F89E91F06E746 /* Pods-Inlinit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Inlinit_Tests-dummy.m"; sourceTree = "<group>"; };
+		42CD976E162B3E911D9C9FBAFB7E0BFD /* Pods-Inlinit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Inlinit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EE331FA0D9495E1C076517D506DE3ED /* Pods-Inlinit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Inlinit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54105F7C20EFF38CCB1972BC6418AD2B /* Pods-Inlinit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Inlinit_Example.modulemap"; sourceTree = "<group>"; };
+		5A63890BA52653FFCB67EDD2905DE130 /* Pods-Inlinit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Inlinit_Example-resources.sh"; sourceTree = "<group>"; };
+		7AF0E518BB13B27C7DF268B6A5763179 /* Inlinit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Inlinit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8489FF20538417EF146179DCA4E951A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C057FCA1A2B1E5C31EBF14D4B8131A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		903C8965A6D4FFF5B84B5C47CEAC9F66 /* Inlinit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Inlinit.modulemap; sourceTree = "<group>"; };
+		94AA8F7C409ACA36340E38BC33DA63CA /* Inlinit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Inlinit-dummy.m"; sourceTree = "<group>"; };
+		990E91D8E3866CDE97F15925BC98FF9C /* Inlinit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Inlinit-prefix.pch"; sourceTree = "<group>"; };
+		9F03F1264D67DAA4CD197029E05035DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86FF3D15151D7579C9E26F527F737E5 /* Pods-Inlinit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Inlinit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B10E206D019666876C4518B498036389 /* Pods-Inlinit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Inlinit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF5D84F645626B1BE843AA3C0B00C483 /* Pods-Inlinit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Inlinit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C47D7C74CE760F99FC68F50A3DB2B3F0 /* Pods_Inlinit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inlinit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6919A84D017BFA5D887412BB7A2ABC /* Inlinit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Inlinit.xcconfig; sourceTree = "<group>"; };
+		CD936F8D99445894074BCD0AA8A5708C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D56976E88B29E7B7814DB1BF41A206 /* Pods_Inlinit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inlinit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E461FCDAE540AC792C33D8A6430079BC /* Inlinit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Inlinit-umbrella.h"; sourceTree = "<group>"; };
+		F1E4D2291D85D45980A8557C7A450FAE /* Inlinit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Inlinit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7DEAC16665436EEBB2D273FBFBBFFD /* Pods-Inlinit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Inlinit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FD8438F6113FBE58FADAAFEAE3E24D9E /* Pods-Inlinit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Inlinit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFA77B1AE432B4BBADDF85D677FF8313 /* Pods-Inlinit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Inlinit_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		404BBF4ADBE3AA35C35B519F16BECDD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918D3FE31D2F4BAE45A1279D160A09FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C61570020C8E87F64009B443ADF1FEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8ACD05B3FEA56D3088725D42FA2E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5826F3F1F04DCC6EB14CE0EC9EC21C5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3971D0E231311B1DDE566B412CCFD09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F75D441E4FE6DD6E08FB76BC913417D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01DD6D01B8FBD63F9B82B2F31DCC2154 /* Pods-Inlinit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9F03F1264D67DAA4CD197029E05035DD /* Info.plist */,
+				37F2BA04888EBF21A075765754F9CD2D /* Pods-Inlinit_Tests.modulemap */,
+				42CD976E162B3E911D9C9FBAFB7E0BFD /* Pods-Inlinit_Tests-acknowledgements.markdown */,
+				FD8438F6113FBE58FADAAFEAE3E24D9E /* Pods-Inlinit_Tests-acknowledgements.plist */,
+				422A58C813008122618F89E91F06E746 /* Pods-Inlinit_Tests-dummy.m */,
+				386E5B98443BD00DB1A880AE33821357 /* Pods-Inlinit_Tests-frameworks.sh */,
+				0670BF87372402F91D171EC5039D1E02 /* Pods-Inlinit_Tests-resources.sh */,
+				01F33C216A5DE0AEA82E33E2F397919D /* Pods-Inlinit_Tests-umbrella.h */,
+				B10E206D019666876C4518B498036389 /* Pods-Inlinit_Tests.debug.xcconfig */,
+				BF5D84F645626B1BE843AA3C0B00C483 /* Pods-Inlinit_Tests.release.xcconfig */,
+			);
+			name = "Pods-Inlinit_Tests";
+			path = "Target Support Files/Pods-Inlinit_Tests";
+			sourceTree = "<group>";
+		};
+		32A154F2A016E1355C3264079DFAB9CE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				89C057FCA1A2B1E5C31EBF14D4B8131A /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		35452FC168C38E75005ED573C7B5D7E7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D2BB18CE8F4F8C7D4E93E226C3EDBFA /* Pods-Inlinit_Example */,
+				01DD6D01B8FBD63F9B82B2F31DCC2154 /* Pods-Inlinit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3B513644BDA4FAD20EEBF3BAE98B4E00 /* Inlinit */ = {
+			isa = PBXGroup;
+			children = (
+				EDE5EE871D4689823AB53A2575C1C02A /* Pod */,
+				7CF87A2666D39C08EEFAB02469D5D7C6 /* Support Files */,
+			);
+			name = Inlinit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5D2BB18CE8F4F8C7D4E93E226C3EDBFA /* Pods-Inlinit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CD936F8D99445894074BCD0AA8A5708C /* Info.plist */,
+				54105F7C20EFF38CCB1972BC6418AD2B /* Pods-Inlinit_Example.modulemap */,
+				4EE331FA0D9495E1C076517D506DE3ED /* Pods-Inlinit_Example-acknowledgements.markdown */,
+				109C5C75600B9ACBD06D161BB1A26F9E /* Pods-Inlinit_Example-acknowledgements.plist */,
+				3609F749D158FBE9CAA95FBB41D50D28 /* Pods-Inlinit_Example-dummy.m */,
+				FFA77B1AE432B4BBADDF85D677FF8313 /* Pods-Inlinit_Example-frameworks.sh */,
+				5A63890BA52653FFCB67EDD2905DE130 /* Pods-Inlinit_Example-resources.sh */,
+				1ECA3182EDCB62789E08B288A00F3A06 /* Pods-Inlinit_Example-umbrella.h */,
+				FD7DEAC16665436EEBB2D273FBFBBFFD /* Pods-Inlinit_Example.debug.xcconfig */,
+				A86FF3D15151D7579C9E26F527F737E5 /* Pods-Inlinit_Example.release.xcconfig */,
+			);
+			name = "Pods-Inlinit_Example";
+			path = "Target Support Files/Pods-Inlinit_Example";
+			sourceTree = "<group>";
+		};
+		7CF87A2666D39C08EEFAB02469D5D7C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8489FF20538417EF146179DCA4E951A6 /* Info.plist */,
+				903C8965A6D4FFF5B84B5C47CEAC9F66 /* Inlinit.modulemap */,
+				CB6919A84D017BFA5D887412BB7A2ABC /* Inlinit.xcconfig */,
+				94AA8F7C409ACA36340E38BC33DA63CA /* Inlinit-dummy.m */,
+				990E91D8E3866CDE97F15925BC98FF9C /* Inlinit-prefix.pch */,
+				E461FCDAE540AC792C33D8A6430079BC /* Inlinit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Inlinit";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				81EC3FB83A8E76C333D0F4083A53D6C9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F4174D10ECB1210F3034453041F0B73E /* Products */,
+				35452FC168C38E75005ED573C7B5D7E7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81EC3FB83A8E76C333D0F4083A53D6C9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B513644BDA4FAD20EEBF3BAE98B4E00 /* Inlinit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDE5EE871D4689823AB53A2575C1C02A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				32A154F2A016E1355C3264079DFAB9CE /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		F4174D10ECB1210F3034453041F0B73E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AF0E518BB13B27C7DF268B6A5763179 /* Inlinit.bundle */,
+				F1E4D2291D85D45980A8557C7A450FAE /* Inlinit.framework */,
+				E2D56976E88B29E7B7814DB1BF41A206 /* Pods_Inlinit_Example.framework */,
+				C47D7C74CE760F99FC68F50A3DB2B3F0 /* Pods_Inlinit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2133CDA2CCF8729182EA553A696F1033 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C59B98D6223C9C2C97418C6E844EE48 /* Pods-Inlinit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21912EAE4E6FD9982E5673A5C0050479 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C1EEEEED3EDF6B6F43BE0C1F442AEA /* Inlinit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58396775471312C2348299511CB7FA02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B2E7B433CCF7732390F7776D70591A /* Pods-Inlinit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		355A8130A8D2850F533856347CFA7BFB /* Inlinit-Inlinit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5691A944ED2A18C8D9A1299C1BBD9CDD /* Build configuration list for PBXNativeTarget "Inlinit-Inlinit" */;
+			buildPhases = (
+				CE5157CD85F8C1AA774AF8E05EB27A55 /* Sources */,
+				404BBF4ADBE3AA35C35B519F16BECDD6 /* Frameworks */,
+				8239A27C1ABEDFEC7ACE1C4980A54D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Inlinit-Inlinit";
+			productName = "Inlinit-Inlinit";
+			productReference = 7AF0E518BB13B27C7DF268B6A5763179 /* Inlinit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5C91A2BD2A58BB9A31D57ABE945F7E19 /* Inlinit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1CC6849DAC07314FCCBBBE45AEF778 /* Build configuration list for PBXNativeTarget "Inlinit" */;
+			buildPhases = (
+				A9B2485A1433C5D4E564E1557C2515E8 /* Sources */,
+				918D3FE31D2F4BAE45A1279D160A09FC /* Frameworks */,
+				1300AE3BD668D6ADE5341779F5754245 /* Resources */,
+				21912EAE4E6FD9982E5673A5C0050479 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74544BE7C199394B57A41D30C5D5F62D /* PBXTargetDependency */,
+			);
+			name = Inlinit;
+			productName = Inlinit;
+			productReference = F1E4D2291D85D45980A8557C7A450FAE /* Inlinit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81D154E6EDF15A6B675A5DF36DD591FF /* Pods-Inlinit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EA538A233181EBC96C32C926EC9DB90 /* Build configuration list for PBXNativeTarget "Pods-Inlinit_Example" */;
+			buildPhases = (
+				4AE2AB7DDAA7A3F21C48D7CB102F9625 /* Sources */,
+				9E8ACD05B3FEA56D3088725D42FA2E6F /* Frameworks */,
+				2133CDA2CCF8729182EA553A696F1033 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B17E58DE9C22DF47E6CB83052E026E72 /* PBXTargetDependency */,
+			);
+			name = "Pods-Inlinit_Example";
+			productName = "Pods-Inlinit_Example";
+			productReference = E2D56976E88B29E7B7814DB1BF41A206 /* Pods_Inlinit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD3EDB2CDAB722D13C97F7278E174035 /* Pods-Inlinit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9219B81B85CDD8155F9B7BC1F3883E /* Build configuration list for PBXNativeTarget "Pods-Inlinit_Tests" */;
+			buildPhases = (
+				4E4BB2B95E877B5B9C6B91EC11C06B6F /* Sources */,
+				A3971D0E231311B1DDE566B412CCFD09 /* Frameworks */,
+				58396775471312C2348299511CB7FA02 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13188297B8C22BA76B1B5156AE2EACA /* PBXTargetDependency */,
+			);
+			name = "Pods-Inlinit_Tests";
+			productName = "Pods-Inlinit_Tests";
+			productReference = C47D7C74CE760F99FC68F50A3DB2B3F0 /* Pods_Inlinit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F4174D10ECB1210F3034453041F0B73E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C91A2BD2A58BB9A31D57ABE945F7E19 /* Inlinit */,
+				355A8130A8D2850F533856347CFA7BFB /* Inlinit-Inlinit */,
+				81D154E6EDF15A6B675A5DF36DD591FF /* Pods-Inlinit_Example */,
+				DD3EDB2CDAB722D13C97F7278E174035 /* Pods-Inlinit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1300AE3BD668D6ADE5341779F5754245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5354D8D8895CBFC20EEA12F8835CAB /* Inlinit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8239A27C1ABEDFEC7ACE1C4980A54D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AE2AB7DDAA7A3F21C48D7CB102F9625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205874F40FE4FAC184E360A76CFDD1D9 /* Pods-Inlinit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4BB2B95E877B5B9C6B91EC11C06B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784906DA759180AAC8CF3BFB09357ED7 /* Pods-Inlinit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B2485A1433C5D4E564E1557C2515E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA84E135385378C05DD7B0E2C8AEE29 /* Inlinit-dummy.m in Sources */,
+				AC65F6538D3E348069CEFFFED42720A7 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5157CD85F8C1AA774AF8E05EB27A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74544BE7C199394B57A41D30C5D5F62D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Inlinit-Inlinit";
+			target = 355A8130A8D2850F533856347CFA7BFB /* Inlinit-Inlinit */;
+			targetProxy = 06618A23F5FC9AD558A2957FF32F0965 /* PBXContainerItemProxy */;
+		};
+		B17E58DE9C22DF47E6CB83052E026E72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Inlinit;
+			target = 5C91A2BD2A58BB9A31D57ABE945F7E19 /* Inlinit */;
+			targetProxy = FA3EB5A5BC586177223119CE38FA3A34 /* PBXContainerItemProxy */;
+		};
+		F13188297B8C22BA76B1B5156AE2EACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Inlinit;
+			target = 5C91A2BD2A58BB9A31D57ABE945F7E19 /* Inlinit */;
+			targetProxy = 88A66A3B5EB3BFF1707ECE6AC900181A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01F3E2E6B73DD4148618158E9653CC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6919A84D017BFA5D887412BB7A2ABC /* Inlinit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Inlinit/Inlinit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Inlinit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Inlinit/Inlinit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Inlinit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		04F229D3A21D875A33AF6817DEE931A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B10E206D019666876C4518B498036389 /* Pods-Inlinit_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Inlinit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Inlinit_Tests/Pods-Inlinit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Inlinit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34E510C17327FBD3B00282668CADA93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF5D84F645626B1BE843AA3C0B00C483 /* Pods-Inlinit_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Inlinit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Inlinit_Tests/Pods-Inlinit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Inlinit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3808E4F45B02E9BCBABBB0A719A773F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6919A84D017BFA5D887412BB7A2ABC /* Inlinit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Inlinit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4EF6723597C815847420B523B3DF9039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7DEAC16665436EEBB2D273FBFBBFFD /* Pods-Inlinit_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Inlinit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Inlinit_Example/Pods-Inlinit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Inlinit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A489FEF60A63E9E62705D7E2607E07AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6919A84D017BFA5D887412BB7A2ABC /* Inlinit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Inlinit/Inlinit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Inlinit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Inlinit/Inlinit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Inlinit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A752D8232419F2355F5B9DB878AC17C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86FF3D15151D7579C9E26F527F737E5 /* Pods-Inlinit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Inlinit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Inlinit_Example/Pods-Inlinit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Inlinit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F7CBBC0AC7F43D6448FFE597319D08E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6919A84D017BFA5D887412BB7A2ABC /* Inlinit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Inlinit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5691A944ED2A18C8D9A1299C1BBD9CDD /* Build configuration list for PBXNativeTarget "Inlinit-Inlinit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3808E4F45B02E9BCBABBB0A719A773F7 /* Debug */,
+				F7CBBC0AC7F43D6448FFE597319D08E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EA538A233181EBC96C32C926EC9DB90 /* Build configuration list for PBXNativeTarget "Pods-Inlinit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF6723597C815847420B523B3DF9039 /* Debug */,
+				A752D8232419F2355F5B9DB878AC17C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9219B81B85CDD8155F9B7BC1F3883E /* Build configuration list for PBXNativeTarget "Pods-Inlinit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F229D3A21D875A33AF6817DEE931A5 /* Debug */,
+				34E510C17327FBD3B00282668CADA93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1CC6849DAC07314FCCBBBE45AEF778 /* Build configuration list for PBXNativeTarget "Inlinit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A489FEF60A63E9E62705D7E2607E07AD /* Debug */,
+				01F3E2E6B73DD4148618158E9653CC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
