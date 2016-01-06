@@ -4,9 +4,8 @@ A new design pattern to allow closure initialization.
 <!-- [![CI Status](http://img.shields.io/travis/Jo Albright/Inlinit.svg?style=flat)](https://travis-ci.org/Jo Albright/Inlinit) -->
 
 [![Version](https://img.shields.io/cocoapods/v/Inlinit.svg?style=flat)](http://cocoapods.org/pods/Inlinit)
-
-<!-- [![License](https://img.shields.io/cocoapods/l/Inlinit.svg?style=flat)](http://cocoapods.org/pods/Inlinit)
-[![Platform](https://img.shields.io/cocoapods/p/Inlinit.svg?style=flat)](http://cocoapods.org/pods/Inlinit) -->
+[![License](https://img.shields.io/cocoapods/l/Inlinit.svg?style=flat)](http://cocoapods.org/pods/Inlinit)
+[![Platform](https://img.shields.io/cocoapods/p/Inlinit.svg?style=flat)](http://cocoapods.org/pods/Inlinit)
 
 ## Usage
 
