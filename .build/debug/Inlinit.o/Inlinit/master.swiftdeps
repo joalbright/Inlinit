@@ -1,5 +1,0 @@
-version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 54dcd16759)"
-options: "7ad968dd4fe1d93b53825114d20147a0"
-build_time: [505514724, 657517000]
-inputs:
-  "/Users/RedLeader/_github/Inlinit/Sources/Inlinit.swift": [505514718, 0]
