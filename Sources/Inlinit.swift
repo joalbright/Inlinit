@@ -6,8 +6,6 @@
 //  Copyright (c) 2016 Jo Albright. All rights reserved.
 //
 
-import UIKit
-
 public protocol Inlinit { init() }
 
 public extension Inlinit {
@@ -18,6 +16,5 @@ public extension Inlinit {
 
 // MARK: Extensions
 
-extension UIView: Inlinit { }
 extension Array: Inlinit { }
 extension Dictionary: Inlinit { }

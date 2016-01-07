@@ -45,6 +45,7 @@
 		821173C2C943A2F5CDD0DCC8 /* Pods_Inlinit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inlinit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB1119F4C3DAE11A5F27D43 /* Pods-Inlinit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inlinit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inlinit_Example/Pods-Inlinit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		97A0D59696F935E7CB20A463 /* Pods_Inlinit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inlinit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95F1CD71C3F0422002D03B2 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 		AFD0C17405ECB94054F4BDD3 /* Pods-Inlinit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inlinit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inlinit_Tests/Pods-Inlinit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B8AFA2BA2765AA7850852DC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +93,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				A95F1CD61C3F0404002D03B2 /* Package Manager */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for Inlinit */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -157,6 +159,14 @@
 				B8AFA2BA2765AA7850852DC9 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A95F1CD61C3F0404002D03B2 /* Package Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A95F1CD71C3F0422002D03B2 /* Package.swift */,
+			);
+			name = "Package Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
