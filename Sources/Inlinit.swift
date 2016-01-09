@@ -18,3 +18,4 @@ public extension Inlinit {
 
 extension Array: Inlinit { }
 extension Dictionary: Inlinit { }
+extension Set: Inlinit { }

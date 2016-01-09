@@ -92,6 +92,19 @@ it, simply add the following line to your Podfile:
 pod "Inlinit"
 ```
 
+Inlinit is also available through [Swift Package Manager](https://swift.org/package-manager/). Please take a look at the link to learn more about how to use SPM.
+
+```swift
+import PackageDescription
+
+let package = Package(
+    name: "YOUR_PACKAGE_NAME",
+    dependencies: [
+        .Package(url: "https://github.com/joalbright/Inlinit.git", majorVersion: 0)
+    ]
+)
+```
+
 ## Author
 
 [Jo Albright](https://github.com/joalbright)
