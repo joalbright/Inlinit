@@ -14,6 +14,14 @@ public extension Inlinit {
     
 }
 
+infix operator <- { }
+
+public func <- <T:Inlinit>(inout lhs: T, rhs: inout T -> ()) {
+    
+    rhs(&lhs)
+    
+}
+
 // MARK: Extensions
 
 extension Array: Inlinit { }

@@ -48,6 +48,33 @@ let randomNumbersArray: [Int] {
 ##### Example 2
 
 ```swift
+struct Person: Inlinit {
+        
+    var age: Int = 0
+    var name: String?
+    
+}
+
+// initialize & set properties
+var me = Person {
+    
+    $0.name = "Jo"
+    $0.age = 32
+    
+}
+
+// update properties
+me <- {
+    
+    $0.age = 30
+    $0.name = "John"
+    
+}
+```
+
+##### Example 3
+
+```swift
 func newLabel(text: String) -> UILabel {
 
 	let label: UILabel = UILabel(frame: CGRect(x: 10, y: 10, width: 100, height: 40))

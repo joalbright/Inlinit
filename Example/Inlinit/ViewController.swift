@@ -10,6 +10,8 @@ import UIKit
 
 import Inlinit
 
+extension UIView: Inlinit { }
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -35,7 +37,34 @@ class ViewController: UIViewController {
             
         })
         
+        // initialize & set properties
+        var me = Person {
+            
+            $0.name = "Jo"
+            $0.age = 32
+            
+        }
+        
+        print(me)
+        
+        // update properties
+        me <- {
+            
+            $0.age = 30
+            $0.name = "John"
+            
+        }
+        
+        print(me)
+        
     }
 
+}
+
+struct Person: Inlinit {
+    
+    var age: Int = 0
+    var name: String?
+    
 }
 
