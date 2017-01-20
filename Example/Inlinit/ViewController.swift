@@ -16,23 +16,23 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        
-        UILabel {
+        let label: UILabel = UILabel {
             
             $0.text = "This is Awesome!"
-            $0.textColor = UIColor.cyanColor()
+            $0.textColor = UIColor.cyan
             $0.frame = CGRect(x: 20, y: 20, width: view.frame.width - 40, height: 40)
             view.addSubview($0)
             
         }
         
+        view.addSubview(label)
+        
         view.addSubview(UIButton {
             
-            $0.setTitle("Submit", forState: .Normal)
-            $0.setTitleColor(UIColor.whiteColor(), forState: .Normal)
-            $0.backgroundColor = UIColor.magentaColor()
+            $0.setTitle("Submit", for: UIControlState())
+            $0.setTitleColor(UIColor.white, for: UIControlState())
+            $0.backgroundColor = UIColor.magenta
             $0.frame = CGRect(x: 20, y: 60, width: view.frame.width - 40, height: 40)
             
         })
@@ -47,11 +47,11 @@ class ViewController: UIViewController {
         
         print(me)
         
-        // update properties
+        // update properties only works on classes
         me <- {
             
-            $0.age = 30
             $0.name = "John"
+            $0.age = 30
             
         }
         
@@ -61,10 +61,12 @@ class ViewController: UIViewController {
 
 }
 
-struct Person: Inlinit {
+class Person: Inlinit {
     
     var age: Int = 0
     var name: String?
+    
+    required init() { }
     
 }
 

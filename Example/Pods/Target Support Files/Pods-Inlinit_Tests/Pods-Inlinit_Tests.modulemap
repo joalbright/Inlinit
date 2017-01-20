@@ -1,6 +1,0 @@
-framework module Pods_Inlinit_Tests {
-  umbrella header "Pods-Inlinit_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

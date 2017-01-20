@@ -6,20 +6,20 @@
 //  Copyright (c) 2016 Jo Albright. All rights reserved.
 //
 
-public protocol Inlinit { init() }
+infix operator <-
+
+public protocol Inlinit {
+    
+    init()
+
+}
 
 public extension Inlinit {
     
-    init(@noescape b: inout Self -> Void) { self.init(); b(&self) }
+    public init(c: (inout Self) -> Void) { self.init(); c(&self) }
     
-}
+    public static func <- (lhs: inout Self, rhs: (inout Self) -> Void) { rhs(&lhs) }
 
-infix operator <- { }
-
-public func <- <T:Inlinit>(inout lhs: T, rhs: inout T -> ()) {
-    
-    rhs(&lhs)
-    
 }
 
 // MARK: Extensions

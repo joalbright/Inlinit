@@ -7,6 +7,10 @@ A new design pattern to allow closure initialization.
 [![License](https://img.shields.io/cocoapods/l/Inlinit.svg?style=flat)](http://cocoapods.org/pods/Inlinit)
 [![Platform](https://img.shields.io/cocoapods/p/Inlinit.svg?style=flat)](http://cocoapods.org/pods/Inlinit)
 
+## Version
+
+The master branch uses Swift 3.0, you will find previous versions in other branches.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
