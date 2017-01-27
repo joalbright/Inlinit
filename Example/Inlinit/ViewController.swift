@@ -8,8 +8,6 @@
 
 import UIKit
 
-import Inlinit
-
 extension UIView: Inlinit { }
 
 class ViewController: UIViewController {
